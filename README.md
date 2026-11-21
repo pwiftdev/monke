@@ -11,12 +11,12 @@ Monke is created by [@monkebiznis](https://www.youtube.com/@monkebiznis) on YouT
    ```js
    var CONFIG = {
      contractAddress: '',
-     xUrl: '#',
+     xUrl: 'https://x.com/Monke_Fun',
      telegramUrl: 'https://t.me/'
    };
    ```
 
-   While `contractAddress` is empty the site shows "To be announced on X first." and hides the Copy buttons. Once it is set, every Buy button points to `https://pump.fun/coin/<contractAddress>`. While `xUrl` is `#`, the X buttons do nothing.
+   While `contractAddress` is empty the site shows "To be announced on X first." and hides the Copy buttons. Once it is set, every Buy button points to `https://pump.fun/coin/<contractAddress>`.
 
 2. **Social preview image.** X and Telegram need a full URL for the preview card. Once you know your domain, replace the two `/og.png` values in the `<head>` of `index.html` with `https://YOUR-DOMAIN/og.png`.
 
